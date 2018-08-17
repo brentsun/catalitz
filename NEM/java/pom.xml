@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.catalitz</groupId>
+  <artifactId>nem_app</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>nemapp</name>
+  
+  
+      <dependencies>
+        <dependency>
+            <groupId>org.nem.core</groupId>
+            <artifactId>nem-core</artifactId>
+            <version>0.6.95-BETA</version>
+        </dependency>
+        
+        <dependency>
+		    <groupId>io.nem.apps</groupId>
+		    <artifactId>nem-apps-lib</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>io.nem</groupId>
+		    <artifactId>sdk</artifactId>
+		    <version>0.9.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter-api</artifactId>
+		    <version>5.2.0</version>
+		    <scope>test</scope>
+		</dependency>
+		
+
+    </dependencies>
+    
+</project>
