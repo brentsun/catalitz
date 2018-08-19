@@ -1,5 +1,8 @@
 #Java codes
 
-##asdfasdfadf
+##Setup
+
+npm i gradle --save-dev
+
 
 ### 
