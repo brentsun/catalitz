@@ -16,13 +16,11 @@
  *
  */
 
-import {AccountHttp,
-    Account, NetworkType
-} from "nem2-sdk";
+import {AccountHttp, Address} from "nem2-sdk";
 
-//const accountHttp = new AccountHttp('http://api.beta.catapult.mijin.io:3000');
+const accountHttp = new AccountHttp('http://api.beta.catapult.mijin.io:3000');
+const address = Address.createFromRawAddress('SBZRCWCLLKTJ76A364UPPB23GVFPDNMDEWCOK3LX');
 
-const account = Account.generateNewAccount(NetworkType.MIJIN_TEST);
-
-
-console.log('Your new account address is:', account.address.pretty(), 'and its private key', account.privateKey);
+accountHttp
+    .getAccountInfo(address)
+    .subscribe(accountInfo => console.log(accountInfo), err => console.error(err));
