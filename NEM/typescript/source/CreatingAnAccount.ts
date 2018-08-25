@@ -24,5 +24,6 @@ import {AccountHttp,
 
 const account = Account.generateNewAccount(NetworkType.MIJIN_TEST);
 
+account.
 
-console.log('Your new account address is:', account.address.pretty(), 'and its private key', account.privateKey);
+console.log('Your new account address is:', account.address.pretty(), 'and its private key', account.privateKey,' and public key',account.publicKey);

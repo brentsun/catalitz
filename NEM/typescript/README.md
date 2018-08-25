@@ -19,6 +19,6 @@
 - test.bat
 
 ### Run one by one
-- ts-node xxxxxx.ts
+- refer to test.bat for description of each step
 
 

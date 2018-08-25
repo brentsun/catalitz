@@ -19,7 +19,7 @@
 import {AccountHttp, Address} from "nem2-sdk";
 
 const accountHttp = new AccountHttp('http://api.beta.catapult.mijin.io:3000');
-const address = Address.createFromRawAddress('SBZRCWCLLKTJ76A364UPPB23GVFPDNMDEWCOK3LX');
+const address = Address.createFromRawAddress('SDZHGL-3ZZBE7-TK4ANF-HIJWOM-IPVIKM-SKE3Q2-FILY');
 
 accountHttp
     .getAccountInfo(address)
