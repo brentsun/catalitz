@@ -1,0 +1,8 @@
+Your account:
+address: TBR26M7FKCHOACT4KUTFQXDPCB5UKJ7PP5ZBJT6G
+account name: brent sun
+private key: 22ca2b2792b6469fb311c373c8f7a7c923cd6a1bb42b69d8b91e724bd021eb50
+public key: 
+node: testnet
+
+
